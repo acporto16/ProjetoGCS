@@ -1,5 +1,6 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+// TOKEN GIT HUB: https://<token sem maior e menor>@github.com/acporto16/ProjetoGCS
 public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
@@ -16,7 +17,5 @@ public class Main {
         cliente1.retirar(3000);
 
         System.out.println(cliente1);
-
-
     }
 }
