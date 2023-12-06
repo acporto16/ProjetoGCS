@@ -8,11 +8,13 @@ public class Banco {
         Cliente cliente2 = new Cliente("Sandra Rodrigues", 1800.00);
         Cliente cliente3 = new Cliente("Luciana Teixeira", 5000.00);
         Cliente cliente4 = new Cliente("Juleska Pereira", 8000.00);
+        Cliente cliente5 = new Cliente("Juma Marruá", 200.00);
 
         System.out.println(cliente1);
         System.out.println(cliente2);
         System.out.println(cliente3);
         System.out.println(cliente4);
+        System.out.println(cliente5);
 
         cliente1.retirar(1000);
         System.out.println(cliente1);
@@ -29,6 +31,9 @@ public class Banco {
         
         cliente4.depositar(300);
         System.out.println(cliente4);
+        
+        cliente5.depositar(1000);
+        System.out.println(cliente5);
 
         /* Teste adicional de tentativa de retirada além do saldo em conta*/
         cliente3.retirar(15000.65);
