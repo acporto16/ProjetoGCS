@@ -1,4 +1,5 @@
 public class Cliente {
+	
     private String nome;
     private double saldo;
 
@@ -6,6 +7,7 @@ public class Cliente {
         this.nome = nome;
         this.saldo = saldo;
     }
+    
     public String getNome() {
         return nome;
     }
@@ -26,6 +28,7 @@ public class Cliente {
         this.saldo += valor;
         return this.saldo;
     }
+    
     public double retirar(double valor){
         if ((this.saldo - valor) > 0){
             this.saldo -=valor;
