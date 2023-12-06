@@ -33,6 +33,11 @@ public class Banco {
         /* Teste adicional de tentativa de retirada além do saldo em conta*/
         cliente3.retirar(15000.65);
         System.out.println(cliente3);
-
+		
+		Cliente arrayCliente[] = new array Cliente[];
+		arrayCliente[] = cliente1;
+		arrayCliente[] = cliente2;
+		arrayCliente[] = cliente3;
+		arrayCliente[] = cliente4;
     }
 }
