@@ -10,8 +10,8 @@ public class Banco {
         Cliente cliente2 = new Cliente("Sandra Rodrigues", 1800.00);
         Cliente cliente3 = new Cliente("Luciana Teixeira", 5000.00);
         Cliente cliente4 = new Cliente("Juleska Pereira", 8000.00);
-        Cliente cliente5 = new Cliente("Juma Marruá", 200.00);
-        Cliente cliente6 = new Cliente("Joventino", 900.00);
+        Cliente cliente5 = new Cliente("Juma Marruá - A onça", 200.00);
+        Cliente cliente6 = new Cliente("Joventino Chupacabra", 900.00);
         Cliente cliente7 = new Cliente("Véi do Rio", 10.00);
 
         System.out.println(cliente1);
