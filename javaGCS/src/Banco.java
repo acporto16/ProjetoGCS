@@ -35,7 +35,7 @@ public class Banco {
         cliente5.depositar(1000);
         System.out.println(cliente5);
 
-        /* Teste adicional de tentativa de retirada além do saldo em conta*/
+        /* Teste adicional de tentativa de retirada além do saldo em conta */
         cliente3.retirar(15000.65);
         System.out.println(cliente3);
 
