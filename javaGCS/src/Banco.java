@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Banco {
 	
     public static  void main(String args[]){
@@ -38,11 +41,12 @@ public class Banco {
         /* Teste adicional de tentativa de retirada além do saldo em conta */
         cliente3.retirar(15000.65);
         System.out.println(cliente3);
+        
+        List<Cliente> listaDeCliente = List.of(
+        		cliente1, cliente2, cliente3, cliente4, cliente5);
 		
-		Cliente arrayCliente[] = new array Cliente[];
-		arrayCliente[] = cliente1;
-		arrayCliente[] = cliente2;
-		arrayCliente[] = cliente3;
-		arrayCliente[] = cliente4;
+        System.out.println("");
+        System.out.println("******Lista de Clientes******");
+		listaDeCliente.forEach(c -> System.out.println(c));
     }
 }
