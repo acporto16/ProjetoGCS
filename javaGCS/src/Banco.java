@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class Banco {
@@ -12,6 +11,7 @@ public class Banco {
         Cliente cliente3 = new Cliente("Luciana Teixeira", 5000.00);
         Cliente cliente4 = new Cliente("Juleska Pereira", 8000.00);
         Cliente cliente5 = new Cliente("Juma Marruá", 200.00);
+        Cliente cliente6 = new Cliente("Joventino", 900.00);
 
         System.out.println(cliente1);
         System.out.println(cliente2);
@@ -43,10 +43,10 @@ public class Banco {
         System.out.println(cliente3);
         
         List<Cliente> listaDeCliente = List.of(
-        		cliente1, cliente2, cliente3, cliente4, cliente5);
+        		cliente1, cliente2, cliente3, cliente4, cliente5, cliente6);
 		
         System.out.println("");
-        System.out.println("******Lista de Clientes******");
+        System.out.println("******Listagem de Clientes******");
 		listaDeCliente.forEach(c -> System.out.println(c));
     }
 }
