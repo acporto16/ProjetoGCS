@@ -12,6 +12,7 @@ public class Banco {
         Cliente cliente4 = new Cliente("Juleska Pereira", 8000.00);
         Cliente cliente5 = new Cliente("Juma Marruá", 200.00);
         Cliente cliente6 = new Cliente("Joventino", 900.00);
+        Cliente cliente7 = new Cliente("Véi do Rio", 10.00);
 
         System.out.println(cliente1);
         System.out.println(cliente2);
@@ -43,7 +44,7 @@ public class Banco {
         System.out.println(cliente3);
         
         List<Cliente> listaDeCliente = List.of(
-        		cliente1, cliente2, cliente3, cliente4, cliente5, cliente6);
+        		cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, cliente7);
 		
         System.out.println("");
         System.out.println("******Listagem de Clientes******");
